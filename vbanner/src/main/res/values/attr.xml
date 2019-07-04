@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VerticalBannerView">
+        <attr name="gap" format="integer"/>
+        <attr name="anim_duration" format="integer"/>
+        <attr name="banner_height" format="dimension"/>
+        <attr name="banner_animate_type" format="enum">
+            <enum name="alpha_in_out" value="0"/>
+            <enum name="down_in_up_out" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
